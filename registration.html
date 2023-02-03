@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/a44f557ce5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Supreme Library</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+       <a href="/"> <img src="images/logo-library.png" alt="" /></a>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li>
+            <a href="/">Mission</a>
+          </li>
+          <li>
+            <a href="/">Discover</a>
+          </li>
+          <li>
+            <a href="/registration.html">Pricing</a>
+          </li>
+          <li>
+            <a href="/login.html">Login</a>
+          </li>
+          <li>
+            <a href="/registration.html" class="free-trial-btn"> Start free Trial</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- mobile navigation -->
+    <i
+      class="fa-sharp fa-solid fa-bars fa-2x hamburger"
+      id="hamburger"
+      onclick="openSlideMenu()"
+    ></i>
+
+    <div class="mobile-nav" id="mobile-nav">
+      <i
+        class="fa-solid fa-xmark fa-2x closeIcon"
+        id="closeIcon"
+        onclick="closeSlideMenu()"
+      ></i>
+      <ul>
+        <li><a href="/">Mission</a></li>
+        <li>
+          <a href="/">Discover</a>
+        </li>
+        <li>
+          <a href="/registration.html">Pricing</a>
+        </li>
+        <li>
+          <a href="/login.html">Login</a>
+        </li>
+        <li>
+          <a href="/registration.html" class="free-trial-btn-mobile">
+            Start free Trial</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- mobile navigation  Ends-->
+<div class="container">
+  <h1 class="header">Start reading with a 7-days free trial</h1>
+
+  <div class="registration1">
+
+    <p>Step 1 of 2</p>
+    <h2>Create your account <span >(All fields are required)</span></h2>
+ <form class="registration-form" action="">
+  
+  <!-- <div class="form-left"> -->
+   <div class="form-control">
+     <label for="fName">First Name</label>
+     <input type="text">
+   </div>  
+   <div class="form-control">
+    <label for="email">Last Name</label>
+    <input type="email">
+  </div>
+  <div class="form-control">
+    <label for="email">Email</label>
+    <input type="email">
+  </div>
+<!-- </div> -->
+
+<!-- <div class="form-right"> -->
+  <div class="form-control">
+    <label for="confirm-email">Confirm Email</label>
+    <input type="email">
+  </div>
+  <div class="form-control">
+   <label for="password"> Password</label>
+   <input type="password" >
+   <p style="    margin-top: -31px">8 or more characters</p>
+
+ </div>
+ <div class="form-control">
+  <label for="confirm-password">Confirm Password</label>
+  <input type="password">
+
+</div>
+<!-- </div> -->
+
+ </form>
+ <button class="create-account-btn">Create your account</button>
+
+ 
+  </div>
+
+  <!-- registration2 -->
+
+  <div class="registration2">
+    <div class="header">
+      <p>Step 2 of 2</p>
+      <h2>Pick a plan for later <span>(All field  are required)</span></h2>
+    </div>
+
+  <div class="subscription-type">
+    <div class="monthly10">
+      <h3>Monthly</h3>
+      <p><span class="sub-price">$10</span> USD</p>
+      <p class="perMonth">per month</p>
+      <p>Billed monthly, cancel anytime</p>
+    </div>
+
+    <div class="monthly8">
+      <h3>Monthly</h3>
+      <p><span>$8</span> USD</p>
+      <p class="perMonth">per month</p>
+      <p>Billed annually, cancel anytime</p>
+    </div>
+    </div>
+
+    <!-- cc form -->
+    <form action="" class="credit-card">
+      <div class="form-control cardHolderName">
+        <label  class="" for="name">Cardholder Name</label>
+        <input type="text">
+      </div>
+
+      <div class="form-control expirationDAte">
+        <label class="" for="expirationDate">Expiration date(MM/YY) </label>
+        <input type="number">
+      </div>
+      <div class="form-control">
+        <label for="country">Country</label>
+        <input type="text">
+      </div>
+      <div class="form-control">
+        <label for="card-number">Card Number</label>
+        <input type="number">
+      </div>
+      <div class="form-control">
+        <label for="cvc">CVC</label>
+        <input type="number">
+      </div>
+      <div class="form-control">
+        <label for="zipcode">Zip code(5 digit number)</label>
+        <input type="number">
+      </div>
+    </form>
+    <p class="after-trial-text">You will be charged once your free trial expires but no worries, we'll send you a reminder email three days before. Also, you can cancel anytine.</p>
+ 
+    <button class="create-account-btn">Start 7-day free trial</button>
+  <p class="renew-subscription-text">Your subscription will automatically renew every month/year following the expiry date of your free trial period. Your chosen method of payment will be charged at that time. If you don't want to renew, please cancel before your renewal date using the Cancel Subscription button inside the Account Settings or by emailing help@supreme.edu.net. See our <a href="" class="terms-and-conditions">Terms and Conditions</a> for more details.</p>
+  </div>
+</div>
+
+     <!-- footer section -->
+     <footer class="footer">
+        <!-- footer left -->
+        <div class="footer-left">
+          <h2>Supreme</h2>
+          <ul>
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">FAQS</a></li>
+            <li><a href="/">Contact Us</a></li>
+            <li><a href="/">Supreme for Instructions</a></li>
+            <li><a href="/">Careers</a></li>
+          </ul>
+        </div>
+        <!-- footer middle -->
+        <div class="footer-middle">
+          <h2>Browse</h2>
+          <ul>
+            <li><a href="/">Topics</a></li>
+            <li><a href="/">Reading List</a></li>
+          </ul>
+        </div>
+        <!-- footer middle-2 -->
+        <div class="footer-middle2">
+          <h2>Learn</h2>
+          <ul>
+            <li><a href="/">Architecture</a></li>
+            <li><a href="/">Art</a></li>
+            <li><a href="/">Biological Sciences </a></li>
+            <li><a href="/">Business</a></li>
+            <li><a href="/">Computer Science</a></li>
+            <li><a href="/">Computer Science</a></li>
+          </ul>
+        </div>
+        <!-- footer middle3 -->
+        <div class="footer-middle3">
+          <ul>
+            <li><a href="/">Economics</a></li>
+            <li><a href="/">Education</a></li>
+            <li><a href="/">History </a></li>
+            <li><a href="/"> Languages</a></li>
+            <li><a href="/">Law</a></li>
+            <li><a href="/">Literature</a></li>
+          </ul>
+        </div>
+        <!-- footer right -->
+        <div class="footer-right">
+          <ul>
+            <li><a href="/">Politics</a></li>
+            <li><a href="/">Psychology</a></li>
+            <li><a href="/">Technology </a></li>
+            <li><a href="/">Engineering </a></li>
+            <li><a href="/">Theology</a></li>
+          </ul>
+        </div>
+        
+      </footer>
+      <div class="social-icons">
+        <div class="instagram"> <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+        <div class="twitter"> <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a></div>
+        <div class="instagram"> <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></div>
+        <div class="instagram"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

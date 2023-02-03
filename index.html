@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/a44f557ce5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Supreme Library</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="/"> <img src="images/logo-library.png" alt="" /></a>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li>
+            <a href="/">Mission</a>
+          </li>
+          <li>
+            <a href="/">Discover</a>
+          </li>
+          <li>
+            <a href="/registration.html">Pricing</a>
+          </li>
+          <li>
+            <a href="/login.html">Login</a>
+          </li>
+          <li>
+            <a href="/registration.html" class="free-trial-btn">
+              Start free Trial</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- mobile navigation -->
+    <i
+      class="fa-sharp fa-solid fa-bars fa-2x hamburger"
+      id="hamburger"
+      onclick="openSlideMenu()"
+    ></i>
+
+    <div class="mobile-nav" id="mobile-nav">
+     
+      <ul>
+        <li><a href="/">Mission</a></li>
+        <li>
+          <a href="/">Discover</a>
+        </li>
+        <li>
+          <a href="/registration.html">Pricing</a>
+        </li>
+        <li>
+          <a href="/login.html">Login</a>
+        </li>
+        <li>
+          <a href="/registration.html" class="free-trial-btn-mobile">
+            Start free Trial</a
+          >
+        </li>
+      </ul>
+      <i
+      class="fa-solid fa-xmark fa-2x closeIcon"
+      id="closeIcon"
+      onclick="closeSlideMenu()"
+    ></i>
+    </div>
+
+    <!-- mobile navigation  Ends-->
+
+    <div class="container">
+      <div class="search-box">
+        <div class="">
+          <h1>Explore the world of Books</h1>
+          <p>
+            With Supreme online library of books, academy texts and tools,
+            trusted by students worldwide
+          </p>
+          <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            <input
+              type="text"
+              placeholder="Search our collection of over 1,000,000 academic & non-fiction titles"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog">
+        <p class="category-title">Trending Books</p>
+        <!-- trending books -->
+        <div class="trending-books">
+          <div class="book1">
+            <img src="images/trending-books/an-american-story.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book2">
+            <img src="images/trending-books/d.hood.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book3">
+            <img src="images/trending-books/beaten.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book4">
+            <img src="images/trending-books/d.lehane.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+        </div>
+
+        <!-- romance books -->
+        <p class="category-title">Romance</p>
+
+        <div class="romance-books">
+          <div class="book1">
+            <img src="images/romance/romance1.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book2">
+            <img src="images/romance/romance2.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book3">
+            <img src="images/romance/romance3.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book4">
+            <img src="images/romance/romance4.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+        </div>
+        <!-- thriller books -->
+        <p class="category-title">Thrillers</p>
+
+        <div class="thrillers-books">
+          <div class="book1">
+            <img src="images/thrillers/thrillers1.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book2">
+            <img src="images/thrillers/thrillers2.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book3">
+            <img src="images/thrillers/thrillers3.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book4">
+            <img src="images/thrillers/thrillers4.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+        </div>
+
+        <!-- kids books -->
+        <p class="category-title">Kids</p>
+
+        <div class="kids-books">
+          <div class="book1">
+            <img src="images/kids/kids1.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book2">
+            <img src="images/kids/kids2.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book3">
+            <img src="images/kids/kids3.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+          <div class="book4">
+            <img src="images/kids/kids4.png" alt="" />
+            <button class="borrow">Borrow</button>
+          </div>
+        </div>
+
+        <!-- read your textbook -->
+        <p class="read-your-textbook">
+          Read your textbooks & find supporting sources
+        </p>
+        <div class="read-your-books">
+          <div class="book1">
+            <img src="images/morebooks/morebooks1.png" alt="" />
+          </div>
+          <div class="book2">
+            <img src="images/morebooks/morebooks2.png" alt="" />
+          </div>
+          <div class="book3">
+            <img src="images/morebooks/morebooks3.png" alt="" />
+          </div>
+          <div class="book4">
+            <img src="images/morebooks/morebooks4.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="discover-section">
+        <div class="discover-title-content">
+          <h1>DISCOVER</h1>
+          <h2>Go beyond your reading list</h2>
+          <p>with a variety of 950+ topics & subtopics to explore</p>
+        </div>
+        <p class="view-all-topics-btn">View all topics</p>
+      </div>
+      <div class="category-block">
+        <!-- left section -->
+        <div class="left">
+          <div class="education category-box">
+            <h2>Education</h2>
+            <p>19,301 books</p>
+          </div>
+          <div class="economics category-box">
+            <h2>Economics</h2>
+            <p>5,301 books</p>
+          </div>
+          <div class="history category-box">
+            <h2>History</h2>
+            <p>950 books</p>
+          </div>
+        </div>
+
+        <!-- middle section -->
+        <div class="middle">
+          <div class="Art category-box">
+            <h2>Art</h2>
+            <p>301 books</p>
+          </div>
+          <div class="computer category-box">
+            <h2>Computer</h2>
+            <p>5001 books</p>
+          </div>
+          <div class="business category-box">
+            <h2>Business</h2>
+            <p>21,950 books</p>
+          </div>
+        </div>
+
+        <!-- right section -->
+        <div class="right">
+          <div class="design category-box">
+            <h2>Design</h2>
+            <p>801 books</p>
+          </div>
+          <div class="science category-box">
+            <h2>Science</h2>
+            <p>1098 books</p>
+          </div>
+          <div class="architecture category-box">
+            <h2>Architecture</h2>
+            <p>450 books</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="try-it-now">
+        <p>Try it now</p>
+        <h1>Start Reading for free</h1>
+        <p>Cancel anytime. We'll remind you before you pay anything.</p>
+
+        <!-- subscription price -->
+        <div class="subscription">
+          <div class="monthly-sub monthly8">
+            <p class="monthly">Monthly</p>
+            <p><span class="price">$10</span> USD</p>
+            <p>per month</p>
+            <p>Billed monthly, cancel anytime</p>
+            <button class="free-trial-btn">Start free Trial</button>
+          </div>
+
+          <div class="monthly-sub monthly10">
+            <p class="monthly">Monthly</p>
+            <p><span class="price">$8</span> USD</p>
+            <p>per month</p>
+            <p>Billed annualy</p>
+            <button class="free-trial-btn">Start free Trial</button>
+          </div>
+        </div>
+        <p class="trial-content">
+          After your free trial, you'll auto-enroll in your selected plan.
+          Change or cancel anytime during your trial to not be charged
+        </p>
+      </div>
+
+      <!-- our community section -->
+
+      <div class="community">
+        <p class="title">OUR COUMMINITY</p>
+        <h2>What people are saying about us</h2>
+
+        <!-- comment left -->
+        <div class="comment-section">
+          <div class="comment-left">
+            <div class="comment1">
+              <p>"It's hard not to recommend Supreme"</p>
+              <p class="author">Angel</p>
+            </div>
+            <div class="comment2">
+              <p>"superb"</p>
+              <p class="author">Akin Abel</p>
+            </div>
+          </div>
+
+          <!-- comment middle -->
+          <div class="comment-middle">
+            <div class="comment1">
+              <p>"The customer service is great"</p>
+              <p class="author">Jack Bauer</p>
+            </div>
+            <div class="">
+              <p>"The customer service is great"</p>
+              <p class="author">Jack Reacher</p>
+            </div>
+          </div>
+
+          <!-- comment right -->
+          <div class="comment-right">
+            <div class="comment1">
+              <p>"The customer service is great"</p>
+              <p class="author">Jessica Biel</p>
+            </div>
+            <div class="">
+              <p>"The customer service is great"</p>
+              <p class="author">Alex Doe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer section -->
+      <footer class="footer">
+        <!-- footer left -->
+        <div class="footer-left">
+          <h2>Supreme</h2>
+          <ul>
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">FAQS</a></li>
+            <li><a href="/">Contact Us</a></li>
+            <li><a href="/">Supreme for Instructions</a></li>
+            <li><a href="/">Careers</a></li>
+          </ul>
+        </div>
+        <!-- footer middle -->
+        <div class="footer-middle">
+          <h2>Browse</h2>
+          <ul>
+            <li><a href="/">Topics</a></li>
+            <li><a href="/">Reading List</a></li>
+          </ul>
+        </div>
+        <!-- footer middle-2 -->
+        <div class="footer-middle2">
+          <h2>Learn</h2>
+          <ul>
+            <li><a href="/">Architecture</a></li>
+            <li><a href="/">Art</a></li>
+            <li><a href="/">Biological Sciences </a></li>
+            <li><a href="/">Business</a></li>
+            <li><a href="/">Computer Science</a></li>
+            <li><a href="/">Computer Science</a></li>
+          </ul>
+        </div>
+        <!-- footer middle3 -->
+        <div class="footer-middle3">
+          <ul>
+            <li><a href="/">Economics</a></li>
+            <li><a href="/">Education</a></li>
+            <li><a href="/">History </a></li>
+            <li><a href="/"> Languages</a></li>
+            <li><a href="/">Law</a></li>
+            <li><a href="/">Literature</a></li>
+          </ul>
+        </div>
+        <!-- footer right -->
+        <div class="footer-right">
+          <ul>
+            <li><a href="/">Politics</a></li>
+            <li><a href="/">Psychology</a></li>
+            <li><a href="/">Technology </a></li>
+            <li><a href="/">Engineering </a></li>
+            <li><a href="/">Theology</a></li>
+          </ul>
+        </div>
+      </footer>
+      <div class="social-icons">
+        <div class="instagram">
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <div class="twitter">
+          <a href="https://twitter.com/">
+            <i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+        <div class="instagram">
+          <a href="https://www.linkedin.com/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <div class="instagram">
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

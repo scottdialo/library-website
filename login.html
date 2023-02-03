@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/a44f557ce5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Supreme Library</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+       <a href="/"> <img src="images/logo-library.png" alt="" /></a>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li>
+            <a href="/">Mission</a>
+          </li>
+          <li>
+            <a href="/">Discover</a>
+          </li>
+          <li>
+            <a href="/registration.html">Pricing</a>
+          </li>
+          <li>
+            <a href="/login.html">Login</a>
+          </li>
+          <li>
+            <a href="/registration.html" class="free-trial-btn"> Start free Trial</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- mobile navigation -->
+    <i
+      class="fa-sharp fa-solid fa-bars fa-2x hamburger"
+      id="hamburger"
+      onclick="openSlideMenu()"
+    ></i>
+
+    <div class="mobile-nav" id="mobile-nav">
+      <i
+        class="fa-solid fa-xmark fa-2x closeIcon"
+        id="closeIcon"
+        onclick="closeSlideMenu()"
+      ></i>
+      <ul>
+        <li><a href="/">Mission</a></li>
+        <li>
+          <a href="/">Discover</a>
+        </li>
+        <li>
+          <a href="/registration.html">Pricing</a>
+        </li>
+        <li>
+          <a href="/login.html">Login</a>
+        </li>
+        <li>
+          <a href="/registration.html" class="free-trial-btn-mobile">
+            Start free Trial</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- mobile navigation  Ends-->
+<div class="login-container">
+    <div class="login-wrapper">
+      <h3>Log In</h3>
+      <p>Welcome to Supreme</p>
+      <form action="">
+        
+        <div class="login-form-control">
+          <label for="email">Email<sup>*</sup></label>
+          <input type="email" >
+        </div>
+        <div class="login-form-control">
+          <label for="password">Password<sup>*</sup></label>
+          <input type="password" >
+        </div>
+        <div class="checkbox">
+          <input type="checkbox"> <span>Keep me logged in</span>
+        </div>
+        <button class="continue-btn">Continue</button>
+        <div class="or">
+          <p>OR</p>
+        <button class="login-with-google"> <img src="images/google-icon.png" alt="google-icon" class="google-icon"/> Sign in with Google</button>
+        </div>
+      </form>
+    </div>
+
+</div>
+
+     <!-- footer section -->
+     <footer class="footer">
+        <!-- footer left -->
+        <div class="footer-left">
+          <h2>Supreme</h2>
+          <ul>
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">FAQS</a></li>
+            <li><a href="/">Contact Us</a></li>
+            <li><a href="/">Supreme for Instructions</a></li>
+            <li><a href="/">Careers</a></li>
+          </ul>
+        </div>
+        <!-- footer middle -->
+        <div class="footer-middle">
+          <h2>Browse</h2>
+          <ul>
+            <li><a href="/">Topics</a></li>
+            <li><a href="/">Reading List</a></li>
+          </ul>
+        </div>
+        <!-- footer middle-2 -->
+        <div class="footer-middle2">
+          <h2>Learn</h2>
+          <ul>
+            <li><a href="/">Architecture</a></li>
+            <li><a href="/">Art</a></li>
+            <li><a href="/">Biological Sciences </a></li>
+            <li><a href="/">Business</a></li>
+            <li><a href="/">Computer Science</a></li>
+            <li><a href="/">Computer Science</a></li>
+          </ul>
+        </div>
+        <!-- footer middle3 -->
+        <div class="footer-middle3">
+          <ul>
+            <li><a href="/">Economics</a></li>
+            <li><a href="/">Education</a></li>
+            <li><a href="/">History </a></li>
+            <li><a href="/"> Languages</a></li>
+            <li><a href="/">Law</a></li>
+            <li><a href="/">Literature</a></li>
+          </ul>
+        </div>
+        <!-- footer right -->
+        <div class="footer-right">
+          <ul>
+            <li><a href="/">Politics</a></li>
+            <li><a href="/">Psychology</a></li>
+            <li><a href="/">Technology </a></li>
+            <li><a href="/">Engineering </a></li>
+            <li><a href="/">Theology</a></li>
+          </ul>
+        </div>
+        
+      </footer>
+      <div class="social-icons">
+        <div class="instagram"> <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+        <div class="twitter"> <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a></div>
+        <div class="instagram"> <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></div>
+        <div class="instagram"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
